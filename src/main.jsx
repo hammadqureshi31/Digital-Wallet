@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import DashBoard from './pages/DashBoard.jsx'
 import Transaction from './pages/Transaction.jsx'
 import Support from './pages/Support.jsx'
@@ -18,7 +18,7 @@ import EmailMessage from './pages/EmailMessage.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <FirebaseProvider>
-      <BrowserRouter>
+      <HashRouter>
         <NavBarProvider>
           <Routes>
             <Route path='/' element={<App />}>
@@ -35,7 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             </Route>
           </Routes>
         </NavBarProvider>
-      </BrowserRouter>
+      </HashRouter>
     </FirebaseProvider>
   </React.StrictMode>,
 )
