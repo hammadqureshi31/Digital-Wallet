@@ -61,7 +61,7 @@ const Support = () => {
 
         <div className='flex flex-col gap-6 mt-4 sm:flex-row'>
           <div className='bg-white rounded-lg relative pb-2 md:w-full'>
-            <img src="../dotbg.svg" alt="" className='absolute mt-1 mr-1 md:w-full' />
+            <img src="./images/dotbg.svg" alt="" className='absolute mt-1 mr-1 md:w-full' />
             <AiFillMessage className='text-[#5F00D9] ml-4 mt-4 text-2xl' />
             <h1 className='text-[#5F00D9] ml-4 mt-4 font-bold text-lg'>Live Chat</h1>
             <p className='m-4 font-light text-sm md:text-lg'>
@@ -70,7 +70,7 @@ const Support = () => {
           </div>
 
           <div className='bg-[#5F00D9] rounded-lg relative pb-2 sm:w-80 md:w-full'>
-            <img src="../gridbg.svg" alt="" className='absolute mt-1 mr-1 md:w-full' />
+            <img src="./images/gridbg.svg" alt="" className='absolute mt-1 mr-1 md:w-full' />
             <button className='mt-4 ml-5 px-1 py-1 bg-white text-[#5F00D9] text-xs rounded-xl'>
               Chatbot
             </button>

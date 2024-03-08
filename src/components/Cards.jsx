@@ -7,7 +7,7 @@ const Cards = () => {
         <>
             <div className='flex flex-col gap-6 sm:flex-row sm:mt-3 md:text-xl md:gap-5'>
                 <div className='bg-white rounded-lg relative pb-2'>
-                    <img src="../dotbg.svg" alt="" className='absolute mt-1 mr-1 sm:w-full sm:h-fit' />
+                    <img src="./images/dotbg.svg" alt="" className='absolute mt-1 mr-1 sm:w-full sm:h-fit' />
                     <button className='mt-4 ml-5 px-2 py-1 bg-[#5F00D9] text-white rounded-xl'>
                         Loans
                     </button>
@@ -18,7 +18,7 @@ const Cards = () => {
 
                 <div onClick={()=>navigate('/support')}
                 className='bg-[#5F00D9] rounded-lg relative pb-2 md:pr-7'>
-                    <img src="../gridbg.svg" alt="" className='absolute mt-1 mr-1 sm:w-full sm:h-fit md:w-full md:h-fit' />
+                    <img src="./images/gridbg.svg" alt="" className='absolute mt-1 mr-1 sm:w-full sm:h-fit md:w-full md:h-fit' />
                     <button className='mt-4 ml-5 px-1 py-1 bg-white text-[#5F00D9] text-sm rounded-xl'>
                         Contacts
                     </button>

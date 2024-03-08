@@ -58,7 +58,7 @@ const Graphview = () => {
                     </div>
 
                     <div>
-                        <img src="../graph.svg" alt=""  className=' sm:w-[530px] md:w-[600px]'/>
+                        <img src="./images/graph.svg" alt=""  className=' sm:w-[530px] md:w-[600px]'/>
                     </div>
                     <div className='flex gap-4 text-xs font-light opacity-90 sm:text-lg sm:gap-12 sm:pl-4 md:gap-16'>
                         <p>7:15 PM</p>
